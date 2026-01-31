@@ -32,8 +32,8 @@ const char* refreshToken = "YOUR_REFRESH_TOKEN"; // refresh token (the latest st
 If you did all of them correctly, it should display it on your screen realtime
 
 # TWEAKS:
-```bool scrollable_text = true;``` - line 18 (if the music title is too long, it will start scrolling it. Disabling it will disable the scrolling effect)
-```int scroll_speed     = 150;``` - line 19 (how fast the music title should scroll, lower value = faster)
+```bool scrollable_text = true;``` - line 18 (if the music title is too long, it will start scrolling it. Disabling it will disable the scrolling effect) <br>
+```int scroll_speed     = 150;``` - line 19 (how fast the music title should scroll, lower value = faster) <br>
 ```const int delayBetweenRequests = 3000;``` - line 31 (this means that it will check what song you're playing every 3 seconds, and it will be kinda delayed. I recommend going somewhere around 1000ms)
 
 # SUPPORT:
